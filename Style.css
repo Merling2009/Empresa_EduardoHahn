@@ -1,0 +1,27 @@
+Body{ 
+font-family:Arial, sans-serif;
+line-height:2;
+margin:0;
+padding:0;
+background-color:orange;
+color:silver;}
+header{
+    display:flex;
+    align-items:center;
+    background-color:black;
+    padding:20px;
+    color:blueviolet;}
+header img{
+    width:80px;
+    height:auto;
+    margin-right:20px;}
+header h1{
+    font-size:2em;
+    margin:0;
+    flex-grow:1;}
+header p {
+    margin:0 10px;
+    cursor:pointer;
+    color:crimson;}
+header p:hover {
+    text-decoration:underline;}
